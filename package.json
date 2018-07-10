@@ -15,5 +15,7 @@
   "bugs": {
     "url": "https://github.com/marion1998/projet_pedago_5c/issues"
   },
-  "homepage": "https://github.com/marion1998/projet_pedago_5c#readme"
+  "homepage": "https://github.com/marion1998/projet_pedago_5c#readme",
+  "dependencies": {
+  }
 }
