@@ -9,3 +9,15 @@
 nav img {
     width: 50px;
 }
+
+nav a {
+    padding: 2%;
+}
+
+nav button {
+    padding: 1%;
+}
+
+nav {
+    margin: 0 0 2% 0;
+}
