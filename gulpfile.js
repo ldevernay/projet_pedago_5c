@@ -79,6 +79,6 @@ gulp.task('watch', ['browserSync', 'app', 'ejs','partials', 'sass', 'img'], func
     gulp.watch(["./app.js"], reload)
     gulp.watch(["./views/*.ejs"], reload)
     gulp.watch(["./sass/*.scss"], reload)
-    gulp.watch(["./partials/*.ejs"], reload)
+    gulp.watch(["./views/partials/**/*.ejs"], reload)
     gulp.watch(["./img/*.png"], reload);
 });
