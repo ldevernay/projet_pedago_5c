@@ -3,21 +3,134 @@
     padding: 0;
 }
 
-
 /*   Navbar    */
 
 nav img {
     width: 50px;
 }
 
+nav li a {
+    padding: 0%;
+    color: #4E3B4D !important;
+    font-size: 20px;
+    /* text-shadow: 1px 3px 1px black; */
+    /* font-size: 50px !important; */
+    
+}
+
 nav a {
-    padding: 2%;
+    font-size: 30px !important;
+    font-family: 'Fascinate Inline', cursive;
+
 }
 
 nav button {
-    padding: 1%;
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: fantasy;
+    height: 40px;
 }
 
 nav {
-    margin: 0 0 2% 0;
+    margin: 0 0 0 0;
+    display: flex;
+    background-color: #d7ecfd !important;
+
+
+    
+
+    box-shadow: 0px 1px 2px black;
+}
+
+nav li {
+    display: flex;
+    align-content: center;
+}
+
+.navbar-brand {
+    padding: 0px 30px;
+    font-size: 32px;
+}
+
+/* Modules */
+
+section {
+    width: 100%;
+    display: flex;
+    background-color: #47ca6b;
+}
+
+section .module {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section #planter,
+section #manger,
+section #bouger {
+    height: 70%;
+    width: 400px;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    cursor: pointer;
+    justify-self: center;
+    background-color: #38E153;
+    box-shadow: 1px 1px 2px black, -1px -1px 2px black;
+}
+
+#planter {
+    background-image: url("../images/planter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 80%;
+}
+
+#manger {
+    background-image: url("../images/manger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+}
+
+#bouger {
+    background-image: url("../images/bouger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 60%;
+}
+
+section #planter h1,
+section #manger h1,
+section #bouger h1 {
+    position: relative;
+    top: 40%;
+    left: 32%;
+    cursor: pointer;
+    width: 140px;
+}
+
+/* Footer */
+
+footer .container-fluid {
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #d7ecfd !important;
+}
+
+footer #contact {
+    color: aliceblue;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px black;
+    margin: 5px 10px 5px 15px;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: red;
 }
