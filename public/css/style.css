@@ -61,6 +61,12 @@ nav li {
     font-size: 32px;
 }
 
+@media (max-width: 900px) {
+     #title{
+        display: none;
+    }
+}
+
 /* Modules */
 
 section {
@@ -147,4 +153,18 @@ footer a:hover {
 
 .img-circle {
     border-radius: 50%;
+}
+
+/* planter */
+
+.clickable-images{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.main-image{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
 }
