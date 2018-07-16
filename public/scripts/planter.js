@@ -1,4 +1,4 @@
-let winImages = ["graine_terre.jpg", "plantule.jpg", "plante.jpg", "patates.png", "market.jpg"];
+let winImages = ["graine_terre.jpg", "plantule.jpg", "plante.jpg", "patates.png", "peasant.jpg"];
 let failImages = ["poule_mange.png", "limace_mange.png", "plante_sans_patates.png", "plante_fruits.png", "patate_germee.png"];
 let btnWinImages = ["arroser.png", "arroser.png", "amendement.png", "recolter.png", "camion.png", "camion.png"];
 let btnFailImages = ["poule.png", "limace.png", "recolter.jpg", "arroser.png",  "planter.png", "planter.png"];
