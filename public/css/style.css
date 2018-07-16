@@ -27,13 +27,8 @@ nav li a {
 nav p {
     position: relative;
     top: -20%;
-    left: -10%;
     margin: 0;
-    font-family: 'Coda Caption', sans-serif;
-    letter-spacing: -1.3px
-    
 }
-
 
 nav a {
     font-size: 30px !important;
@@ -164,8 +159,10 @@ footer a:hover {
 /* planter */
 
 .img-circle {
+    border-radius: 50%;
     border-radius: 30%;
     background-color: #d7ecfd;
+    padding: 3%;
     padding: 1%;
     width: 120px;
     height: 120px;
@@ -194,4 +191,13 @@ footer a:hover {
     justify-content: center;
     height: 350px;
     margin: 5%;
+}
+
+#formplanter{
+    display: flex;
+}
+
+#restart-btn{
+border-radius: 50% !important;
+
 }
