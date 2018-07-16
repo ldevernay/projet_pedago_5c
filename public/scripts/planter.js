@@ -19,20 +19,22 @@ let changeBtn1Image = () => {
         changeMainImage(winImages[btnCounter]);
         btnCounter++;
     }else{
-        
+        showRestartBtn();
     }
-    // else include restart the game option
-
 }
 
 let changeBtn2Image = () =>{
     changeMainImage(failImages[btnCounter]);
-    if(!gameOver){
-        document.getElementById("restart-btn").classList.remove("d-none");
-    }
-    gameOver = true;
+    showRestartBtn();
 }
 
 let changeMainImage = mainImage => {
     document.getElementById("mainImg").src = `./images/${mainImage}`;
+}
+
+let showRestartBtn = () => {
+    if(!gameOver){
+        document.getElementById("restart-btn").classList.remove("d-none");
+    }
+    gameOver = true;
 }
