@@ -28,10 +28,7 @@ let changeBtn1Image = () => {
 let changeBtn2Image = () =>{
     changeMainImage(failImages[btnCounter]);
     if(!gameOver){
-        l/* et restartBtn = document.createElement("button");
-        let textNode = document.createTextNode("Recommencer");
-        restartBtn.appendChild(textNode);
-        document.body.appendChild(restartBtn); */
+        document.getElementById("restart-btn").classList.remove("d-none");
     }
     gameOver = true;
 }
