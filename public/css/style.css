@@ -193,14 +193,25 @@ footer a:hover {
 
 #formplanter{
     display: flex;
+    justify-content: center;
 }
 
 #restart-btn{
-border-radius: 50% !important;
+    background-color: #28a745;
+    justify-self: center;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 43.5%;
 
-    height: 50vh;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#restart-btn i{
+
 }
 
 .btn {
-    padding-bottom:2px;
+
 }
