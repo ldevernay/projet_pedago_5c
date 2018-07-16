@@ -8,19 +8,27 @@ let gameOver = false;
 // Change the button image on click
 let changeBtn1Image = () => {
     if(!gameOver && btnCounter < btnWinImages.length){
-        document.getElementById("button1").src = "./images/" + btnWinImages[btnCounter];
-        document.getElementById("button2").src = "./images/" + btnFailImages[btnCounter];
+        document.getElementById("button1").src = `./images/${btnWinImages[btnCounter]}`;
+        document.getElementById("button2").src = `./images/${btnFailImages[btnCounter]}`;
         changeMainImage(winImages[btnCounter]);
         btnCounter++;
+    }else{
+        
     }
     // else include restart the game option
 }
 
 let changeBtn2Image = () =>{
     changeMainImage(failImages[btnCounter]);
+    if(!gameOver){
+        l/* et restartBtn = document.createElement("button");
+        let textNode = document.createTextNode("Recommencer");
+        restartBtn.appendChild(textNode);
+        document.body.appendChild(restartBtn); */
+    }
     gameOver = true;
 }
 
 let changeMainImage = mainImage => {
-    document.getElementById("mainImg").src = "./images/" + mainImage;
+    document.getElementById("mainImg").src = `./images/${mainImage}`;
 }
