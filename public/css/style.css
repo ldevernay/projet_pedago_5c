@@ -189,7 +189,6 @@ footer a:hover {
     justify-content: center;
     height: 350px;
     margin: 5%;
-<<<<<<< HEAD
 }
 
 #formplanter{
@@ -199,11 +198,9 @@ footer a:hover {
 #restart-btn{
 border-radius: 50% !important;
 
-=======
     height: 50vh;
 }
 
 .btn {
     padding-bottom:2px;
->>>>>>> 8fbdb1f0c1212ddc9d78720681e5627cb60c7483
 }
