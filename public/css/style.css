@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 /*   Navbar    */
 
 nav img {
@@ -54,6 +58,7 @@ nav {
     display: flex;
     background-color: #d7ecfd !important;
     box-shadow: 0px 1px 2px black;
+    height: 80px;
 }
 
 nav li {
