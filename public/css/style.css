@@ -65,6 +65,9 @@ nav li {
      #title{
         display: none;
     }
+    .navbar{
+        justify-content: flex-start;
+    }
 }
 
 /* Modules */
@@ -151,11 +154,29 @@ footer a:hover {
     color: red;
 }
 
-.img-circle {
-    border-radius: 50%;
-}
+
 
 /* planter */
+
+.img-circle {
+    border-radius: 50%;
+    background-color: #d7ecfd;
+    padding: 3%;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    box-shadow: 0 2px #666;
+}
+
+.img-circle:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.img-circle:hover{
+    background-color: #6999E8;
+}
 
 .clickable-images{
     display: flex;
