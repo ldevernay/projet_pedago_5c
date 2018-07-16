@@ -16,6 +16,13 @@ nav li a {
     /* text-shadow: 1px 3px 1px black; */
     /* font-size: 50px !important; */
     
+    
+}
+
+nav p {
+    position: relative;
+    top: -20%;
+    margin: 0;
 }
 
 nav a {
@@ -30,6 +37,7 @@ nav button {
     cursor: pointer;
     font-family: fantasy;
     height: 40px;
+    align-items: center;
 }
 
 nav {
@@ -59,6 +67,7 @@ section {
     width: 100%;
     display: flex;
     background-color: #47ca6b;
+    
 }
 
 section .module {
@@ -73,7 +82,7 @@ section #planter,
 section #manger,
 section #bouger {
     height: 70%;
-    width: 400px;
+    width: 500px;
     border-radius: 30px;
     -moz-border-radius: 30px;
     cursor: pointer;
@@ -120,7 +129,8 @@ footer .container-fluid {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    background-color: #d7ecfd !important;
+    background-color: #783300 !important;
+    box-shadow: -1px -1px 1px black !important;
 }
 
 footer #contact {
