@@ -3,6 +3,12 @@ let failImages = ["poule_mange.png", "poule_mange.png", "limace_mange.png", "pla
 let btnWinImages = ["arroser.png", "arroser.png", "amendement.png", "recolter.png", "camion.png", "camion.png"];
 let btnFailImages = ["poule.png", "limace.png", "recolter.jpg", "arroser.png",  "planter.png", "planter.png"];
 
+//DOM selectors
+// let imgCirlce = document.getElementsByClassName('img.circle');
+
+
+
+
 let btnCounter = 0;
 let gameOver = false;
 // Change the button image on click

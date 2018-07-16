@@ -66,6 +66,15 @@ nav li {
     font-size: 32px;
 }
 
+@media (max-width: 900px) {
+     #title{
+        display: none;
+    }
+    .navbar{
+        justify-content: flex-start;
+    }
+}
+
 /* Modules */
 
 section {
@@ -150,8 +159,37 @@ footer a:hover {
     color: red;
 }
 
+
+
+/* planter */
+
 .img-circle {
     border-radius: 50%;
-    width: 64px;
-    height: 64px;
-};
+    padding: 3%;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    box-shadow: 0 2px #666;
+}
+
+.img-circle:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.img-circle:hover{
+    background-color: #6999E8;
+}
+
+.clickable-images{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.main-image{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
