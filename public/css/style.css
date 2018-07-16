@@ -192,6 +192,6 @@ footer a:hover {
 .main-image{
     display: flex;
     justify-content: center;
+    height: 350px;
     margin: 5%;
-    height: 30vh;
 }
