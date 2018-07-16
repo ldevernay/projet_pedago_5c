@@ -134,3 +134,7 @@ footer a:hover {
     text-decoration: none;
     color: red;
 }
+
+.img-circle {
+    border-radius: 50%;
+}

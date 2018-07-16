@@ -1,5 +1,14 @@
 <% include ./partials/header %>
-<% include ./partials/navbar %>
+    <% include ./partials/navbar %>
+        <div class="clickable-images">
+            <img id="button1" src="./images/enterrer.png" alt="enterre les graines" class="img-circle" onclick="changeBtn1Image()">
+            <img id="button2" src="./images/semer.png" alt="enterre les graines" class="img-circle" onclick="changeBtn2Image()">
+        </div>
 
-<script src="./scripts/planter.js"></script>
-<% include ./partials/footer %>
+        <div class="main-image">
+            <img id="mainImg" src="./images/5c-logo.png" alt="">
+        </div>
+
+
+        <script src="./scripts/planter.js"></script>
+        <% include ./partials/footer %>
