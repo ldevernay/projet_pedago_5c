@@ -27,8 +27,13 @@ nav li a {
 nav p {
     position: relative;
     top: -20%;
+    left: -10%;
     margin: 0;
+    font-family: 'Coda Caption', sans-serif;
+    letter-spacing: -1.3px
+    
 }
+
 
 nav a {
     font-size: 30px !important;
