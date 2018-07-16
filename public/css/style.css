@@ -27,8 +27,13 @@ nav li a {
 nav p {
     position: relative;
     top: -20%;
+    left: -10%;
     margin: 0;
+    font-family: 'Coda Caption', sans-serif;
+    letter-spacing: -1.3px
+    
 }
+
 
 nav a {
     font-size: 30px !important;
@@ -160,7 +165,6 @@ footer a:hover {
 
 .img-circle {
     border-radius: 50%;
-    background-color: #d7ecfd;
     padding: 3%;
     width: 120px;
     height: 120px;
