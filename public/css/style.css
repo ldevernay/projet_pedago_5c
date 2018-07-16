@@ -200,8 +200,8 @@ footer a:hover {
     background-color: #28a745;
     justify-self: center;
     display: flex;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: -50%;
     left: 43.5%;
 
     box-shadow: 0 5px #666;
