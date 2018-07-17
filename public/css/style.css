@@ -204,12 +204,11 @@ footer a:hover {
 
 #restart-btn{
     background-color: #28a745;
-    justify-self: center;
+    align-content: top;
     display: flex;
     position: absolute;
-    top: 50%;
-    left: 43.5%;
-
+    top: 20%;
+    /* left: 43.5%; */
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
