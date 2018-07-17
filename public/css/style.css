@@ -164,8 +164,8 @@ footer a:hover {
     border-radius: 30%;
     background-color: #d7ecfd;
     padding: 1%;
-    width: 120px;
-    height: 120px;
+    height: 270px;
+    width: 270px;
     cursor: pointer;
     box-shadow: 0 2px #666;
 }
@@ -189,12 +189,12 @@ footer a:hover {
 .main-image{
     display: flex;
     justify-content: center;
-    height: 350px;
+    height: 400px;
     margin: 5%;
 }
 
 .main-image img{
-    width: 600px;
+    width: 700px;
 }
 
 #formplanter{
@@ -207,8 +207,8 @@ footer a:hover {
     align-content: top;
     display: flex;
     position: absolute;
-    top: 20%;
+    top: 30%;
     /* left: 43.5%; */
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-}
+};
