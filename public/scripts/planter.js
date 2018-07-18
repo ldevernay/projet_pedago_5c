@@ -1,7 +1,7 @@
-let winImages = ["plantule.jpg", "plante.jpg", "patate.jpg", "fumier_plante.jpg"];
-let failImages = ["poule_mange.png", "poule_mange.jpg", "plante_sans_patates.png", "plante_fruits.png", "patate_germee.png"];
-let btnWinImages = [ "arroser.jpg", "soleil.png", "fumier.jpg", "recolter.jpeg", "recolter.png", "camion.png", "camion.png"];
-let btnFailImages = ["poule.png", "limace.png", "recolter.jpg", "arracher.png",  "planter.png", "planter.png"];
+let winImages = ["plantule.jpg", "plante.jpg", "patate.jpg", "patates.png"];
+let failImages = ["poule_mange.png", "escargot_mange.jpg", "feuille.png", "potato_sad.png", "patate_germee.png"];
+let btnWinImages = [ "arroser.jpg", "soleil.png", "recolter.jpeg", "camion.png", "", "camion.png"];
+let btnFailImages = ["escargot.png", "vent.png", "arracher.png", "velo.png", "planter.png"];
 
 //DOM selectors
 // let imgCirlce = document.getElementsByClassName('img.circle');
