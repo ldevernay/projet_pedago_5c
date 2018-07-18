@@ -1,14 +1,21 @@
 <% include ./partials/header %>
     <% include ./partials/navbar %>
         <div class="clickable-images">
-            <img id="button1" src="./images/enterrer.png" alt="enterre les graines" class="img-circle" onclick="changeBtn1Image()">
+            <img id="button1" src="./images/bien_planter.jpg" alt="enterre les graines" class="img-circle" onclick="changeBtn1Image()">
             <img id="button2" src="./images/semer.png" alt="enterre les graines" class="img-circle" onclick="changeBtn2Image()">
         </div>
 
         <div class="main-image">
-            <img id="mainImg" src="./images/5c-logo.png" alt="">
+            <img id="mainImg" src="https://www.wikihow.com/images/1/15/Plant-Sunflower-Seeds-Step-16.jpg" alt="">
         </div>
 
+        <!-- <form action="/planter">
+            <button id="restart-btn" type="submit" class="btn d-none" value="Réessayer"><i class="fas fa-redo-alt"></i> Réessayer</button>
+        </form> -->
+
+        <form id="formplanter" action="/planter">
+            <button id="restart-btn" type="submit" class="btn-lg d-none" value="Réessayer"><i class="fas fa-redo-alt"></i>Réessaier</button>
+        </form>
 
         <script src="./scripts/planter.js"></script>
         <% include ./partials/footer %>
