@@ -24,11 +24,13 @@ $(document).ready(function () {
                     console.log('dont have class assiette');
                     goodResult += Number(ui.draggable.attr('data-score'));
                 }
+                console.log('goodResult = ' + goodResult)
+
 
                 ui.draggable.removeClass('foodTable')
                 ui.draggable.addClass('foodAssiette')
-
-                // console.log('goodResult = ' + goodResult)
+                
+                
 
                 $('.counter').html(goodResult)
 
@@ -50,7 +52,8 @@ $(document).ready(function () {
             }
 
 
-     })
+        })
+
 
         $("#table").droppable({
             drop: function (event, ui) {
