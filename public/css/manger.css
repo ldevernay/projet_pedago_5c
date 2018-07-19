@@ -1,11 +1,21 @@
+
+.module2 {
+    display: flex;
+    width: 100%;
+
+}
+
 #table {
-    width: 500px;
+    width: 50%;
     height: 500px;
     background-color: red;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
 }
 
 #assiette {
-    width: 500px;
+    width: 50%;
     height: 500px;
     background-color: blue;
 }
@@ -17,4 +27,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 3%;
+}
+
+.counter {
+    position: absolute;
+    background-color: green;
+    top: 20%;
+    left: 48%;   
 }
