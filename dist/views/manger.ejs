@@ -1,4 +1,42 @@
 <% include ./partials/header%>
-<% include ./partials/navbar%>
+    <% include ./partials/navbar%>
 
-<% include ./partials/footer %>
+
+    <div class="counter"><p id="counter2">score</p></div>
+
+        <div class="" id="table">
+            <p>Table :</p>
+            <div class="draggable food" data-score="-20">
+                <p>Pomme</p>
+            </div>
+            <div class="draggable food" data-score="-20">
+                <p>Radis</p>
+            </div>
+            <div class="draggable food" data-score="-20">
+                <p>Banane</p>
+            </div>
+            <div class="draggable food" data-score="-20">
+                <p>Carotte</p>
+            </div>
+        </div>
+
+        <div class="ui-widget-header" id="assiette">
+            <p>Assiette : Drop here</p>
+        </div>
+
+        
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous"></script>
+
+
+        <script src="/scripts/manger.js"></script>
+
+
+        <% include ./partials/footer %>
