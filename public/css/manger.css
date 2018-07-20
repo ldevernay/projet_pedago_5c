@@ -2,38 +2,52 @@
 .module2 {
     display: flex;
     width: 100%;
+    height: 80vh;
+    background-image: url('https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fmolotilo.com%2Fwp-content%2Fuploads%2F2016%2F07%2Fold-wood-table-top.jpg&f=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* background-position: 30% 0; */
 
 }
 
 #table {
     width: 50%;
     height: 500px;
-    background-color: red;
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
+    
 }
 
 #assiette {
     width: 50%;
     height: 500px;
-    background-color: blue;
+    /* background-color: blue; */
+    background-image: url('https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fduquesne-service.fr%2Fimage%2Farticle%2F133%2Fassiette-elysees-picture1-zoom_fiche.png&f=1');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
 }
 
 .draggable {
-    width: 50px;
-    height: 50px;
+    width: 15%;
+    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3%;
+    margin: 2%;
 }
 
 .counter {
     position: absolute;
-    background-color: green;
-    top: 20%;
-    left: 48%;   
+    /* background-color: green; */
+    top: 75%;
+    left: 52%;
+    font-family: 'Fascinate Inline', cursive;
+    color: antiquewhite;
+    text-align: center;
 }
 
 .draggable img {
