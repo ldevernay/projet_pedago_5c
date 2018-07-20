@@ -35,25 +35,19 @@ $(document).ready(function () {
                 if (goodResult > 25 || badResult <= -15) {
                     $('#module2txt').html("Trop manger");
                     $('#module2img').attr('src', '/images/001-sick.png');
-                } else if (goodResult > 15 && badResult >=0) {
+                }  else if (goodResult >= 15 && badResult >= 0) {
                     $('#module2txt').html("Très bien")
-                    $('#module2img').attr('src', '/images/003-happy.png');
-                } else if (goodResult >= 10 && badResult >=-5) {
+                    $('#module2img').attr('src', '/images/joyful.png');
+                } else if (goodResult >= 5 && badResult >= -5) {
                     $('#module2txt').html("Bien")
                     $('#module2img').attr('src', '/images/005-smile.png');
-                } else if (goodResult <= 5 && badResult <= -10) {
-                    
-                    if (goodResult <= 5 && badResult <= -5) {
-                        $('#module2txt').html("Pas bien");
-                        $('#module2img').attr('src', '/images/004-sad.png');
-                    }
-
+                } else if (goodResult <= 5 && badResult <= -15) {
                     $('#module2img').attr('src', '/images/002-crying.png');
                     $('#module2txt').html("Pas bien du tout")
                 } else if (goodResult <= 5 && badResult <= -10) {
                     $('#module2txt').html("Pas bien");
                     $('#module2img').attr('src', '/images/004-sad.png');
-                } else {
+                } else if (goodResult == 0 || badResult == 0) {
                     $('#module2txt').html("neutral");
                     $('#module2img').attr('src', '/images/006-thinking.png');
                 }
@@ -68,7 +62,7 @@ $(document).ready(function () {
                 ui.draggable.removeClass('foodTable')
                 ui.draggable.addClass('foodAssiette')
                 // $('.counter').html(goodResult)
-                
+
 
             }
 
@@ -106,21 +100,21 @@ $(document).ready(function () {
                 if (goodResult > 25 || badResult <= -15) {
                     $('#module2txt').html("Trop manger");
                     $('#module2img').attr('src', '/images/001-sick.png');
-                } else if (goodResult > 15 && badResult >=0) {
+                }  else if (goodResult >= 15 && badResult >= 0) {
                     $('#module2txt').html("Très bien")
-                    $('#module2img').attr('src', '/images/003-happy.png');
-                } else if (goodResult >= 10 && badResult >=-5) {
+                    $('#module2img').attr('src', '/images/joyful.png');
+                } else if (goodResult >= 5 && badResult >= -5) {
                     $('#module2txt').html("Bien")
                     $('#module2img').attr('src', '/images/005-smile.png');
-                } else if (goodResult <= 5 && badResult <= 15) {
+                } else if (goodResult <= 10 && badResult <= -15) {
                     $('#module2img').attr('src', '/images/002-crying.png');
                     $('#module2txt').html("Pas bien du tout")
-                } else if (goodResult <= 5 && badResult <= 10) {
+                } else if (goodResult <= 10 && badResult <= -10) {
                     $('#module2txt').html("Pas bien");
                     $('#module2img').attr('src', '/images/004-sad.png');
-                } else {
+                } else if (goodResult == 0 || badResult == 0) {
                     $('#module2txt').html("neutral");
-                    $('#module2img').attr('src', '/images/001-sick.png');
+                    $('#module2img').attr('src', '/images/006-thinking.png');
                 }
 
 

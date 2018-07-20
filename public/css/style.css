@@ -207,13 +207,13 @@ footer a:hover {
     transform: translateY(4px);
 }
 
-.pack1, .pack2 {
+.pack1,
+.pack2 {
     display: flex;
     align-items: center;
     flex-direction: column;
     font-size: 50px;
 }
 
-.text1, text2 {
-
-}
+.text1,
+text2 {}
