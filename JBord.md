@@ -1,18 +1,21 @@
 09/07/2018
+
 Nous avons commencé ce projet avec une excellente ambiance (merci Marion). Ce premier jour a été consacré principalement à la conception de projet (sans compter les débats étendus sur l’orthographe).
 Le travail suivant a été réalisé en groupe (sans avoir divisé les taches) :
-•	Repo Github: https://github.com/marion1998/projet_pedago_5c
-•	Kanban sur Github
-•	Cahier des charges : quelques ajustements sont souhaitables
-•	Diagramme de cas d’utilisation : à compléter
-•	Wireframes : à finir
+- Repo Github: https://github.com/marion1998/projet_pedago_5c
+- Kanban sur Github
+- Cahier des charges : quelques ajustements sont souhaitables
+- Diagramme de cas d’utilisation : à compléter
+- Wireframes : à finir
 Demain nous allons nous pencher sur le cahier des charges afin de le rendre présentable. Puis nous allons finir les wireframes que nous avons commencé. Et enfin nous allons coder en « pair programming ».
 
+
 10/07/2018
+
 Aujourd’hui nous avons discuté sur le choix des mini-jeux à réaliser. Pour chaque jeu le diagramme de cas d'utilisation a été fait. Nous avons fini les wireframes. Finalement nous avons commencé à coder le site web avec les technologies suivantes :
-•	Node.js : express
-•	Gulp : Nous avons quelques difficultés à lancer le browser sync.
-•	Bootstrap : Marion a commencé faire la page d’accueil.
+- Node.js : express
+- Gulp : Nous avons quelques difficultés à lancer le browser sync.
+- Bootstrap : Marion a commencé faire la page d’accueil.
 Demain nous allons continuer le développement du site avec node et bootstrap (on ne touche pas aux jeux pour l’instant).
 
 11/07/2018
