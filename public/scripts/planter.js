@@ -55,6 +55,14 @@ let myjson = {"data" : [
         "btnFailImage": "pressoir.png",
         "text1": "Poêle",
         "text2": "Ecrasé"
+    },
+    {
+        "winImage": "potato_house.jpg",
+        "failImage": "poule.png",
+        "btnWinImage": "pan.png",
+        "btnFailImage": "pressoir.png",
+        "text1": "Poêle",
+        "text2": "Ecrasé"
     }
 ]
 }

@@ -217,3 +217,10 @@ footer a:hover {
 .text1, text2 {
 
 }
+
+#phaser-game {
+    display: block;
+    width: 800px;
+    height: 600px;
+    margin: 20px auto;
+}

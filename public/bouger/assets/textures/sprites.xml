@@ -1,0 +1,10 @@
+<TextureAtlas imagePath="sprites.png">
+	<SubTexture name="Cheeseburger.png" x="261" y="0" width="66" height="48"/>
+	<SubTexture name="banana.png" x="103" y="271" width="100" height="108"/>
+	<SubTexture name="gameboy.png" x="103" y="381" width="100" height="99"/>
+	<SubTexture name="lemon.png" x="0" y="428" width="100" height="82"/>
+	<SubTexture name="orange.png" x="205" y="271" width="100" height="98"/>
+	<SubTexture name="pear.png" x="0" y="271" width="101" height="155"/>
+	<SubTexture name="strawberry.png" x="205" y="371" width="95" height="121"/>
+	<SubTexture name="tv2.png" x="0" y="0" width="259" height="269"/>
+</TextureAtlas>
