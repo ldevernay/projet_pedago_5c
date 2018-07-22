@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
 
 
@@ -11,60 +9,82 @@ $(document).ready(function () {
 
 
         $(".draggable").draggable(); //definition of draggables
-        
+
         $("#assiette").droppable({
             drop: function (event, ui) {
                 $(this)
                     .addClass('ui-state-highlight');
 
-                ui.draggable.css("color", "red"); //ui.draggable is the dragged object
+
+                // CLASSES VERIF
 
                 //class verificator for goodfood
                 if (ui.draggable.is(":not(.foodAssiette)") && ui.draggable.is('.goodfood')) {
-                    console.log('dont have class assiette');
+                    // console.log('dont have class assiette');
                     goodResult += Number(ui.draggable.attr('data-score'));
                 }
+                //badfood verif
+                if (ui.draggable.is(":not(.foodAssiette)") && ui.draggable.is('.badfood')) {
+                    // console.log('dont have class assiette');
+                    badResult += Number(ui.draggable.attr('data-score'));
+
+                }
+
+
+                //conditions to change counter class
+                if (goodResult > 25 || badResult <= -15) {
+                    $('#module2txt').html("Trop manger");
+                    $('#module2img').attr('src', '/images/001-sick.png');
+                }  else if (goodResult >= 15 && badResult >= 0) {
+                    $('#module2txt').html("Très bien")
+                    $('#module2img').attr('src', '/images/joyful.png');
+                } else if (goodResult >= 5 && badResult >= -5) {
+                    $('#module2txt').html("Bien")
+                    $('#module2img').attr('src', '/images/005-smile.png');
+                } else if (goodResult <= 5 && badResult <= -15) {
+                    $('#module2img').attr('src', '/images/002-crying.png');
+                    $('#module2txt').html("Pas bien du tout")
+                } else if (goodResult <= 5 && badResult <= -10) {
+                    $('#module2txt').html("Pas bien");
+                    $('#module2img').attr('src', '/images/004-sad.png');
+                } else if (goodResult == 0 || badResult == 0) {
+                    $('#module2txt').html("neutral");
+                    $('#module2img').attr('src', '/images/006-thinking.png');
+                }
+
+
+
+                console.log('badResult = ' + badResult);
+
+                console.log('goodResult = ' + goodResult);
+
 
                 ui.draggable.removeClass('foodTable')
                 ui.draggable.addClass('foodAssiette')
-
-                // console.log('goodResult = ' + goodResult)
-
-                $('.counter').html(goodResult)
+                // $('.counter').html(goodResult)
 
 
-                    //conditions to change counter class
-                 if(goodResult > 59){
-                    $('.counter').html("too much")
-                } else if (goodResult > 39) {
-                    $('.counter').html("very good")
-                } else if ( goodResult > 19) {
-                    $('.counter').html("good")
-                } else if (goodResult < -39) {
-                    $('.counter').html("very sad")
-                } else if (goodResult < -19) {
-                    $('.counter').html("sad")
-                } else {
-                    $('.counter').html("neutral")
-                }
             }
 
 
-     })
+        })
+
 
         $("#table").droppable({
             drop: function (event, ui) {
                 $(this)
                     .addClass('ui-state-highlight')
-                    
-                ui.draggable.css("color", "blue")
 
-                if (ui.draggable.is(":not(.foodAssiette)") && ui.draggable.is(":not(.foodTable)" )) {
+                //food norepeat
+                if (ui.draggable.is(":not(.foodAssiette)") && ui.draggable.is(":not(.foodTable)")) {
                     console.log('no divs');
-                    
-                } else if (ui.draggable.is(":not(.foodTable)" )) {
+
+                } else if (ui.draggable.is(":not(.foodTable)") && ui.draggable.is('.goodfood')) {
                     console.log('dont have class assiette');
                     goodResult -= Number(ui.draggable.attr('data-score'));
+                } else if (ui.draggable.is(":not(.foodTable)") && ui.draggable.is('.badfood')) {
+                    console.log('dont have class assiette');
+                    badResult -= Number(ui.draggable.attr('data-score'));
                 }
 
 
@@ -73,28 +93,37 @@ $(document).ready(function () {
                 ui.draggable.addClass('foodTable')
 
                 console.log('goodResult = ' + goodResult);
+                console.log('badResult = ' + badResult);
 
-                if(goodResult > 59){
-                    $('.counter').html("too much")
-                } else if (goodResult > 39) {
-                    $('.counter').html("very good")
-                } else if ( goodResult > 19) {
-                    $('.counter').html("good")
-                } else if (goodResult < -39) {
-                    $('.counter').html("very sad")
-                } else if (goodResult < -19) {
-                    $('.counter').html("sad")
-                } else {
-                    $('.counter').html("neutral")
+
+                //conditions to change counter class
+                if (goodResult > 25 || badResult <= -15) {
+                    $('#module2txt').html("Trop manger");
+                    $('#module2img').attr('src', '/images/001-sick.png');
+                }  else if (goodResult >= 15 && badResult >= 0) {
+                    $('#module2txt').html("Très bien")
+                    $('#module2img').attr('src', '/images/joyful.png');
+                } else if (goodResult >= 5 && badResult >= -5) {
+                    $('#module2txt').html("Bien")
+                    $('#module2img').attr('src', '/images/005-smile.png');
+                } else if (goodResult <= 10 && badResult <= -15) {
+                    $('#module2img').attr('src', '/images/002-crying.png');
+                    $('#module2txt').html("Pas bien du tout")
+                } else if (goodResult <= 10 && badResult <= -10) {
+                    $('#module2txt').html("Pas bien");
+                    $('#module2img').attr('src', '/images/004-sad.png');
+                } else if (goodResult == 0 || badResult == 0) {
+                    $('#module2txt').html("neutral");
+                    $('#module2img').attr('src', '/images/006-thinking.png');
                 }
-                
-                
+
+
             }
         })
 
-        
-        
 
 
-    });//function end
-});//ready end
+
+
+    }); //function end
+}); //ready end

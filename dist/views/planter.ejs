@@ -1,8 +1,14 @@
 <% include ./partials/header %>
     <% include ./partials/navbar %>
         <div class="clickable-images">
-            <img id="button1" src="./images/semer.png" alt="enterre les graines" class="img-circle" onclick="changeBtn1Image()">
-            <img id="button2" src="./images/poule.png" alt="enterre les graines" class="img-circle" onclick="changeBtn2Image()">
+            <div class="pack1">
+                <img id="button1" src="./images/semer.png" alt="enterre les graines" class="img-circle" onclick="changeBtn1Image()">
+                <div id="text1">Planter</div>
+            </div>
+            <div class="pack2">
+                <img id="button2" src="./images/poule.png" alt="enterre les graines" class="img-circle" onclick="changeBtn2Image()">
+                <div id="text2">Poule</div>
+            </div>
         </div>
 
         <div class="main-image">
@@ -14,7 +20,8 @@
         </form> -->
 
         <form id="formplanter" action="/planter">
-            <button id="restart-btn" type="submit" class="btn-lg d-none" value="Réessayer"><i class="fas fa-redo-alt"></i>Réessaier</button>
+            <button id="restart-btn" type="submit" class="btn-lg d-none" value="Réessayer">
+                <i class="fas fa-redo-alt"></i>Réessayer</button>
         </form>
 
         <script src="./scripts/planter.js"></script>
