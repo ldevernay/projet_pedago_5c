@@ -1,5 +1,5 @@
 window.onload = function() {
-var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-game');
+var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-game');
 
 	// Add the States your game has.
 	// game.state.add("Boot", Boot);
