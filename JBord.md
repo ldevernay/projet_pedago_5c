@@ -60,3 +60,8 @@ Nous n’avions pratiquement pas travaillé sur le jeu du module « bouger ».
 
 20/07/2018
 Hmm…
+
+22/07/2018
+
+Hamburger ne fonctionne pas.
+
