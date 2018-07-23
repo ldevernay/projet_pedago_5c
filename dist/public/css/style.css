@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*   Navbar    */
+
+nav img {
+    width: 50px;
+}
+
+nav #logo1 {
+    height: 50px;
+    width: 75px;
+}
+
+nav li a {
+    padding: 0%;
+    color: #4E3B4D !important;
+    font-size: 20px;
+    /* text-shadow: 1px 3px 1px black; */
+    /* font-size: 50px !important; */
+}
+
+nav p {
+    position: relative;
+    top: -20%;
+    margin: 0;
+}
+
+nav a {
+    font-size: 30px !important;
+    font-family: 'Fascinate Inline', cursive;
+    display: flex;
+}
+
+nav button {
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: fantasy;
+    height: 40px;
+}
+
+nav {
+    margin: 0 0 0 0;
+    display: flex;
+    background-color: #d7ecfd !important;
+    box-shadow: 0px 1px 2px black;
+}
+
+nav li {
+    display: flex;
+    align-content: center;
+}
+
+.navbar-brand {
+    padding: 0px 30px;
+    font-size: 32px;
+}
+
+@media (max-width: 900px) {
+    #title {
+        display: none;
+    }
+    .navbar {
+        justify-content: flex-start;
+    }
+}
+
+/* Modules */
+
+section {
+    width: 100%;
+    display: flex;
+    background-color: #47ca6b;
+}
+
+section .module {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section #planter,
+section #manger,
+section #bouger {
+    height: 70%;
+    width: 500px;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    cursor: pointer;
+    justify-self: center;
+    background-color: #38E153;
+    box-shadow: 1px 1px 2px black, -1px -1px 2px black;
+}
+
+#planter {
+    background-image: url("../images/planter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 80%;
+}
+
+#manger {
+    background-image: url("../images/manger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+}
+
+#bouger {
+    background-image: url("../images/bouger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 60%;
+}
+
+section #planter h1,
+section #manger h1,
+section #bouger h1 {
+    position: relative;
+    top: 40%;
+    left: 32%;
+    cursor: pointer;
+    width: 140px;
+}
+
+/* Footer */
+
+footer .container-fluid {
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #783300 !important;
+    box-shadow: -1px -1px 1px black !important;
+}
+
+footer #contact {
+    color: aliceblue;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px black;
+    margin: 5px 10px 5px 15px;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+/* planter */
+
+.img-circle {
+    border-radius: 30%;
+    background-color: #d7ecfd;
+    padding: 1%;
+    height: 270px;
+    width: 270px;
+    cursor: pointer;
+    box-shadow: 0 2px #666;
+}
+
+.img-circle:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.img-circle:hover {
+    background-color: #6999E8;
+}
+
+.clickable-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    align-content: center;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin: 5%;
+}
+
+.main-image img {
+    width: 500px;
+}
+
+#formplanter {
+    display: flex;
+    justify-content: center;
+}
+
+#restart-btn {
+    background-color: #28a745;
+    align-content: top;
+    display: flex;
+    position: absolute;
+    top: 30%;
+    /* left: 43.5%; */
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.pack1,
+.pack2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 50px;
+}
+
+.text1, text2 {
+
+}
+
+#phaser-game {
+    display: block;
+    width: 800px;
+    height: 600px;
+    margin: 20px auto;
+}

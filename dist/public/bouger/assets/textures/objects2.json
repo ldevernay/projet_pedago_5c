@@ -1,0 +1,188 @@
+{
+  "frames": {
+    "Burger": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 570,
+        "y": 242,
+        "w": 133,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 133,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 133,
+        "h": 65
+      }
+    },
+    "Orange": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 570,
+        "y": 175,
+        "w": 133,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 133,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 133,
+        "h": 65
+      }
+    },
+    "Nintendo": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 649,
+        "y": 24,
+        "w": 73,
+        "h": 47
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 73,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 73,
+        "h": 47
+      }
+    },
+    "Lemon": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 570,
+        "y": 2,
+        "w": 73,
+        "h": 46
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 73,
+        "h": 46
+      },
+      "sourceSize": {
+        "w": 73,
+        "h": 46
+      }
+    },
+    "Banana": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 570,
+        "y": 50,
+        "w": 77,
+        "h": 77
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 77,
+        "h": 77
+      },
+      "sourceSize": {
+        "w": 77,
+        "h": 77
+      }
+    },
+    "Red Apple": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 688,
+        "y": 132,
+        "w": 49,
+        "h": 41
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 41
+      },
+      "sourceSize": {
+        "w": 49,
+        "h": 41
+      }
+    },
+    "Fraise": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 724,
+        "y": 30,
+        "w": 50,
+        "h": 41
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 41
+      },
+      "sourceSize": {
+        "w": 50,
+        "h": 41
+      }
+    },
+    "Pear": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 705,
+        "y": 242,
+        "w": 63,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 63,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 63,
+        "h": 65
+      }
+    },
+    "Tv": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 705,
+        "y": 176,
+        "w": 62,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 62,
+        "h": 64
+      }
+    },
+  "meta": {
+    "app": "Phaser Editor",
+    "version": "1",
+    "image": "objects2.png"
+  }
+}
