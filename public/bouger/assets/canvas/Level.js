@@ -997,5 +997,6 @@ Level.prototype.playerVsBoard = function(player, endBoard) {
 };
 
 function restart(){
+	score = 0;
 	this.state.restart();
 }
