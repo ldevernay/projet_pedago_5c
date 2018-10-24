@@ -71,8 +71,10 @@ let myjson = {
 
 let btnCounter = 0;
 let gameOver = false;
+let rdm = 0;
 // Change the button image on click
 let changeBtn1Image = () => {
+    rdm = Math.round(Math.random())
     if (!gameOver && btnCounter < myjson.data.length) {
         document.getElementById("button1").src = `./images/${myjson.data[btnCounter].btnWinImage}`;
         document.getElementById("button2").src = `./images/${myjson.data[btnCounter].btnFailImage}`;
@@ -80,6 +82,7 @@ let changeBtn1Image = () => {
         document.getElementById('text2').innerHTML = myjson.data[btnCounter].text2;
         changeMainImage(myjson.data[btnCounter].winImage);
         btnCounter++;
+        shuffle();
     } else {
         showRestartBtn();
     }
@@ -99,4 +102,10 @@ let showRestartBtn = () => {
         document.getElementById("restart-btn").classList.remove("d-none");
     }
     gameOver = true;
+}
+
+let shuffle = () =>{
+    $(".clickable-images").html($(".clickable-images .pack").sort(function(){
+        return Math.random()-0.5;
+    }));
 }
