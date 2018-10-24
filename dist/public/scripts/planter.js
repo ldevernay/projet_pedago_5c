@@ -80,6 +80,7 @@ let changeBtn1Image = () => {
         document.getElementById('text2').innerHTML = myjson.data[btnCounter].text2;
         changeMainImage(myjson.data[btnCounter].winImage);
         btnCounter++;
+        shuffle();
     } else {
         showRestartBtn();
     }
@@ -99,4 +100,10 @@ let showRestartBtn = () => {
         document.getElementById("restart-btn").classList.remove("d-none");
     }
     gameOver = true;
+}
+
+let shuffle = () =>{
+    $(".clickable-images").html($(".clickable-images .pack").sort(function(){
+        return Math.random()-0.5;
+    }));
 }
